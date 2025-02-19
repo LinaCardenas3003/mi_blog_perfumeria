@@ -3,67 +3,162 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Perfumeria Lina</title>
+  <title>Perfumería Lina</title>
   <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-  <table border="1">
-    <tr>
-      <th width="200">
-        <img src="images/atencion.jpeg" alt=""><br>
-        "¡Disfruta de tus fragancias favoritas al mejor precio! Ofrecemos los mismos aromas que amas, pero en diferente envase. Obtén la misma calidad y duración de tus perfumes preferidos, sin pagar de más por el diseño del envase.
-        <img src="images/generico_madera.jpeg" alt="">
-      </th>
-      <th width="200">
-        <h1>COMÓ COMPRAR</h1>
-        <p>✉️ Si te gustó alguno de nuestros productos, envianos un mensaje y lo guardamos para ti. </p>
-        <p>🚛 Para agendar el envío, necesitaremos tus datos como nombre, ciudad, direccion y numero celular.</p>
-        <p>💵 Antes de realizarte el envío envianos el comprobante de pago.</p>
-      </th>
-      <th width="200">
-        <img src="images/tarjeta.jpeg">
-        <h1>DATOS DE PAGO</h1>
-        <h2>Lina Mayerly Cardenas</h2>
-        <h3>Bancolombia - Ahorros<br> No. de cuenta<br>912-296286-37</h3>
-        <h3>Daviplata o Transfiya<br>304-232-2077</h3>
-      </th>
-    </tr>
-  </table>
-  <table border="1">
-    <tr>
-      <th>
-        <img src="images/lattafa honor & glory.jpeg" alt=""><br>$95.000<br><input type="submit" value="Agregar 🛍️">
-      </th>
-      <th>
-        <img src="images/lattafa sublime.jpeg" alt=""><br>$95.000<br><input type="submit" value="Agregar 🛍️">
-      </th>
-      <th>
-        <img src="images/lattafa amethyst.jpeg" alt=""><br>$95.000<br><input type="submit" value="Agregar 🛍️">
-      </th>
-      <th>
-        <img src="images/lattafa oud for glory .jpeg" alt=""><br>$95.000<br><input type="submit" value="Agregar 🛍️">
-      </th>
-      <th>
-        <img src="images/lattafa yara for woman.jpeg" alt=""><br>$70.000<br><input type="submit" value="Agregar 🛍️">
-      </th>
-      <th>
-        <img src="images/lattafa asad for men.jpeg" alt=""><br>$70.000<br><input type="submit" value="Agregar 🛍️">
-      </th>
-    </tr>
-    <tr>
-      <th>
-        <img src="images/moschino toy 2.jpeg" alt=""><br>$85.000<br><input type="submit" value="Agregar 🛍️">
-      </th>
-      <th>
-        <img src="images/moschino toy 2 bubble gum.jpeg" alt=""><br>$75.000<br><input type="submit" value="Agregar 🛍️">
-      </th>
-      <th>
-        <img src="images/moschino pearl.jpeg" alt=""><br>$85.000<br><input type="submit" value="Agregar 🛍️">
-      </th>
-      <th>
-        <img src="images/moschino toy boy.jpeg" alt=""><br>$85.000<br><input type="submit" value="Agregar 🛍️">
-      </th>
-    </tr>
-  </table>
+  <header> <!-- Defino la cabecera del sitio, generalmente contiene el título o logo. -->
+    <h1>Perfumería Lina</h1>
+  </header>
+
+  <nav> <!--Esta es la barra de navegación permite a los usuarios moverse por diferentes secciones del blog.-->
+    <ul>
+      <li><span><a href="#comprar">Cómo Comprar</a></span></li>
+      <li><span><a href="#productos">Productos</a></span></li>
+      <li><span><a href="#pago">Datos de Pago</a></span></li>
+    </ul>
+  </nav>
+  
+  <article> <!-- Sirve para incluir contenido independiente sobre cómo elegir el perfume ideal. -->
+    <h2>Cómo elegir el perfume ideal</h2>
+    <p>Elegir un perfume puede ser una tarea difícil con tantas opciones disponibles. Para encontrar la fragancia perfecta, ten en cuenta los siguientes aspectos:</p>
+    <ul>
+      <li><strong>Notas olfativas:</strong> Las fragancias se componen de notas de salida, corazón y fondo. Asegúrate de probarlas en diferentes momentos del día.</li>
+      <li><strong>Estilo personal:</strong> Si te gustan los aromas dulces, los perfumes con vainilla y caramelo pueden ser ideales. Si prefieres lo fresco, opta por cítricos y acuáticos.</li>
+      <li><strong>Duración y estela:</strong> Dependiendo de la concentración del perfume (Eau de Toilette, Eau de Parfum), su duración variará.</li>
+    </ul>
+    <p>Descubre nuestras opciones y encuentra la fragancia que mejor se adapte a tu personalidad.</p>
+  </article>  
+
+  <main> <!-- El contenido principal del sitio web está dentro de esta etiqueta. -->
+    <section id="comprar"> <!-- Esta sección contiene información sobre cómo comprar los productos. -->
+      <h2>Cómo Comprar</h2>
+      <p>✉️ Si te gustó alguno de nuestros productos, envíanos un mensaje y lo guardamos para ti.</p>
+      <p>🚛 Para agendar el envío, necesitaremos tus datos como nombre, ciudad, dirección y número celular.</p>
+      <p>💵 Antes de realizar el envío, envíanos el comprobante de pago.</p>
+    </section>
+
+    <section id="productos"> <!-- Aquí se listan los productos en venta con su imagen, precio y botón de compra. -->
+      <h2>Productos</h2>
+      <table border="1">
+        <tr>
+          <th>
+            Lattafa Honor & Glory<br>
+            <img src="images/lattafa honor & glory.jpeg" alt=""><br>
+            $95.000<br><input type="submit" value="Agregar 🛍️">
+          </th>
+          <th>
+            Lattafa Sublime<br>
+            <img src="images/lattafa sublime.jpeg" alt=""><br>
+            $95.000<br><input type="submit" value="Agregar 🛍️">
+          </th>
+          <th>
+            Lattafa Amethyst<br>
+            <img src="images/lattafa amethyst.jpeg" alt=""><br>
+            $95.000<br><input type="submit" value="Agregar 🛍️">
+          </th>
+          <th>
+            Lattafa Oud for Glory<br>
+            <img src="images/lattafa oud for glory .jpeg" alt=""><br>
+            $95.000<br><input type="submit" value="Agregar 🛍️">
+          </th>
+          <th>
+            Lattafa Yara for Woman<br>
+            <img src="images/lattafa yara for woman.jpeg" alt=""><br>
+            $70.000<br><input type="submit" value="Agregar 🛍️">
+          </th>
+          <th>
+            Lattafa Asad for Men<br>
+            <img src="images/lattafa asad for men.jpeg" alt=""><br>
+            $70.000<br><input type="submit" value="Agregar 🛍️">
+          </th>
+        </tr>
+        <tr>
+          <th>
+            Moschino Toy 2<br>
+            <img src="images/moschino toy 2.jpeg" alt=""><br>
+            $85.000<br><input type="submit" value="Agregar 🛍️">
+          </th>
+          <th>
+            Moschino Toy 2 Bubble Gum<br>
+            <img src="images/moschino toy 2 bubble gum.jpeg" alt=""><br>
+            $75.000<br><input type="submit" value="Agregar 🛍️">
+          </th>
+          <th>
+            Moschino Toy Pearl<br>
+            <img src="images/moschino pearl.jpeg" alt=""><br>
+            $85.000<br><input type="submit" value="Agregar 🛍️">
+          </th>
+          <th>
+            Moschino Toy Boy<br>
+            <img src="images/moschino toy boy.jpeg" alt=""><br>
+            $85.000<br><input type="submit" value="Agregar 🛍️">
+          </th>
+        </tr>
+      </table>
+    </section>
+
+    <aside> <!-- Este elemento contiene información adicional sobre promociones, separada del contenido principal. -->
+      <table></table>
+      <h2>Promoción</h2>
+      <img src="images/atencion.jpeg" alt=""><br>
+      <p>¡Disfruta de tus fragancias favoritas al mejor precio! <br>Ofrecemos los mismos aromas que amas, pero en un envase diferente.</p>
+      <img src="images/generico_madera.jpeg" alt="Perfume genérico">
+    </aside>
+
+  </main>
+
+  <section id="pedido">
+    <h2>Realiza tu Pedido</h2>
+    <form action="#"> 
+      <span>Nombre Completo:</span><input type="text" id="nombre" name="nombre"><br>
+      <span>Correo Electrónico:</span><input type="email" id="email" name="email"> <br>
+      <span>Teléfono:</span><input type="tel" id="telefono" name="telefono"><br>
+      <span>Dirección de Envío:</span><input type="text" id="direccion" name="direccion"><br>
+      <span>Selecciona tu Perfume:</span>
+      <select id="producto" name="producto">
+        <option value="amethyst">Lattafa Amethyst</option>
+        <option value="asad">Lattafa Asad for Men</option>
+        <option value="honor_glory">Lattafa Honor & Glory</option>
+        <option value="oud">Lattafa Oud for Glory</option>
+        <option value="sublime">Lattafa Sublime</option>
+        <option value="yara">Lattafa Yara for Woman</option>
+        <option value="oud">Moschino Toy 2</option>
+        <option value="oud">Moschino Toy 2 Bubble Gum</option>
+        <option value="oud">Moschino Toy Boy</option>
+        <option value="oud">Moschino Toy Pearl</option>        
+      </select><br>
+      <span>Cantidad:</span><input type="number" id="cantidad" name="cantidad"><br>
+      
+      <p>Tipo de Pago:</p>
+      <span>Bancolombia</span><input type="radio" id="bancolombia" name="bancolombia">
+      <span>Daviplata</span><input type="radio" id="daviplata" name="daviplata"><br>
+  
+      <p>¿Deseas envoltura de regalo?</p>
+      <input type="checkbox" id="regalo" name="regalo"><span>Sí, quiero envoltura de regalo</span><br>
+      
+      <span><br>Comentarios Adicionales:</span><br><textarea id="comentarios" name="comentarios" rows="3"></textarea><br>
+  
+      <input type="submit" value="Enviar Pedido">
+      <input type="reset" value="Borrar">
+    </form>
+  </section>
+  
+
+  <footer id="pago"> <!-- El pie de página contiene la información de pago y contacto. -->
+    <h2>Datos de Pago</h2>
+    <p><strong>Lina Mayerly Cardenas</strong></p>
+    <p>Bancolombia - Ahorros<br> No. de cuenta: 912-296286-37</p>
+    <p>Daviplata o Transfiya<br> 304-232-2077</p>
+  </footer>
+
+  <blockquote cite="https://www.threads.net/@mariabeatrizverrocchi/post/DFaCLFvNa7Y/perfumes-de-lugares-los-que-nos-recordar%C3%A1n-instantes-que-nos-han-marcado-momento?hl=es">
+    <p>¿Sabía que la memoria olfativa es la única que no se deshace? Los rostros de aquellos a los que más amamos se desvanecen con el tiempo, las voces se borran, pero los olores nunca se olvidan.”</p>
+    <footer>
+      <cite>Marc Levy</cite>
+    </footer>
+  </blockquote>
+
 </body>
+
 </html>
